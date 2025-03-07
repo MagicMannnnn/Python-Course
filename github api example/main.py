@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN") # 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
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
     raise ValueError("Missing GITHUB_TOKEN")
 
