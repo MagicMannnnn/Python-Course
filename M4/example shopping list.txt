@@ -1,0 +1,64 @@
+Shopping List:
+
+
+What would you like to do?
+1. add an item to the list
+2.remove an item from the list
+3.remove the last item added
+4.edit an item
+1
+item to add: apples
+
+
+Shopping List:
+apples
+
+
+What would you like to do?
+1. add an item to the list
+2.remove an item from the list
+3.remove the last item added
+4.edit an item
+1
+item to add: pens
+
+
+Shopping List:
+apples
+pens
+
+
+What would you like to do?
+1. add an item to the list
+2.remove an item from the list
+3.remove the last item added
+4.edit an item
+4
+item to edit: pens
+edited item: pencils
+
+
+Shopping List:
+apples
+pencils
+
+
+What would you like to do?
+1. add an item to the list
+2.remove an item from the list
+3.remove the last item added
+4.edit an item
+2
+item to remove: apples
+
+
+Shopping List:
+pencils
+
+
+What would you like to do?
+1. add an item to the list
+2.remove an item from the list
+3.remove the last item added
+4.edit an item
+exit
