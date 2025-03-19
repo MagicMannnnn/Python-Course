@@ -1,0 +1,18 @@
+hello everyone
+this is a text file
+theres an empty line after this line
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+new line here
+amount of times the word new is in this file is: 12
+amount of times the word new is in this file is: 13
+amount of times the word new is in this file is: 14

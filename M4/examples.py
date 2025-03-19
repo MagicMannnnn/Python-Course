@@ -22,19 +22,21 @@ print(lst.index("!"))
 print(len(lst))
 
 
-lst = [3, 7, 13, 2, 5, 9]
+lst = [3, 7, 13, 2, 5, 9, 6]
 print(max(lst))
 print(min(lst))
 
-#format = lst[first:last:step] -> first inclusive, last not inclusive
+#  format = lst[first:last:step] -> first inclusive, last not inclusive
 
 firstThree = lst[:3]
 thirdOnwards = lst[3:]
+lastThree = lst[-3:]
 everyOther = lst[::2]
 backwards = lst[::-1]
 
 print(firstThree)
 print(thirdOnwards)
+print(lastThree)
 print(everyOther)
 
 
@@ -51,3 +53,6 @@ print(lst)
 lst = ["h", "e", "l", "l", "o"]
 s = "".join(lst)
 print(s)
+
+
+

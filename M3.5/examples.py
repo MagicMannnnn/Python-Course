@@ -1,6 +1,6 @@
 
 x = True
-while x == True:
+while x:
     if input("quit? (y/n): ").lower() == "y":
         x = False
 
@@ -26,6 +26,10 @@ for i in range(5):
 
 while True:
     #  code here
-    quit = input("continue? (y/n): ")
-    if quit.lower() == "n":
+    exitLoop = input("continue? (y/n): ")
+    if exitLoop.lower() == "n":
         break
+
+
+for index, item in enumerate("hello"):
+    print(f"{index} : {item}")
