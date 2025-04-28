@@ -18,29 +18,6 @@ def getData(filename="data.csv"):
 
     return data
 
-def writeData(data, filename="example.csv"):
-    with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-
-
-def Main():
-    arr = [["0 0", "0, 1"], ["1, 0", "1, 1"]] #indexes
-    print(arr[1])
-    print(arr[0][1])
-
-    print("\n")
-
-    for row in arr:
-        for item in row:
-            print(item)
-
-
-
 
 if __name__ == "__main__":
-    Main()
-    data = getData()
-    print(data)
-    writeData(data)
-
+    print(getData())

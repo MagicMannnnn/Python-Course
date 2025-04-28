@@ -1,0 +1,4 @@
+2025-04-28 13:04:01,284 - DEBUG - George - This is a debug message.
+2025-04-28 13:04:01,285 - INFO - George - This is an info message.
+2025-04-28 13:04:01,285 - WARNING - George - This is a warning message.
+2025-04-28 13:04:01,286 - ERROR - George - This is an error message.
