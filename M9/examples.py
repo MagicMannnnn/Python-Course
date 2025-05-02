@@ -25,4 +25,9 @@ if __name__ == "__main__":
     data = fetch_data_from_api(url)
     logging.warning("this is a test warning")
     if data:
-        print(data)
+        for i in data: # dictionary
+            print("\n\n")
+            for key, value in zip(i.keys(), i.values()):
+                print(f"key: {key}, value: {value}")
+            #print(i)
+

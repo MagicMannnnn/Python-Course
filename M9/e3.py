@@ -10,6 +10,8 @@ url = "https://www.example.com"
 try:
     response = requests.get(url)
 
+    response.raise_for_status()
+
     # Check if the request was successful
     if response.status_code == 200:
         logging.info("Successfully fetched the webpage.")
